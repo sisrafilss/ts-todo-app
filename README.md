@@ -1,6 +1,6 @@
 # Welcome to the [TS-Todo-App](https://ts-todo-app-one.vercel.app/)
 
-This is a simple Todo App build with ReactJS with TypeScript.
+This is a simple Todo App build with ReactJS with TypeScript. Click on this link [https://ts-todo-app-one.vercel.app/](https://ts-todo-app-one.vercel.app/) to visit the application.
 
 ## Features
 
