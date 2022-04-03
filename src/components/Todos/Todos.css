@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.add-todo-input,
+.edit-todo-input {
+  outline: none;
+}
+
+.add-todo-input:focus,
+.edit-todo-input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.view-opt-label,
+.date-label {
+  font-size: 0.8rem;
+}
+
+.edit-todo-input {
+  font-size: 1.7rem !important;
+}
+
+.todo-actions {
+  visibility: hidden !important;
+}
+
+.todo-item:hover .todo-actions {
+  visibility: visible !important;
+}
+
+.todo-item.editing .todo-actions .edit-icon {
+  display: none !important;
+}
+
+.calendar-icon {
+  position: relative;
+}
+
+.due-date {
+  position: absolute;
+  top: 60px;
+  left: -135px;
+  /* visibility: hidden; */
+}
+
+.due-date-input {
+  outline: none;
+}
+
+.due-date-input:focus {
+  /* border: none; */
+  box-shadow: none;
+}
+
+.visible {
+  visibility: visible;
+}
